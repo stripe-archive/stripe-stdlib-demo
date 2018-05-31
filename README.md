@@ -1,10 +1,12 @@
 # Stripe on StdLib Demo
 
-Welcome to the Stripe on StdLib demo! This repository shows how to build frictionless Stripe integrations on top of StdLib’s serverless platform and their browser-based API development environment, [code.xyz](https://code.xyz).
+<a href="https://code.xyz/?github=stripe/stripe-stdlib-demo"><img src="https://code.xyz/button/?format=svg" alt="Open in Code.xyz" height="32"></a>
+
+Welcome to the Stripe on StdLib demo! This repository shows how to build frictionless Stripe integrations on top of StdLib’s serverless platform and their browser-based API development environment, [Code.xyz](https://code.xyz).
 
 This project extends our universal [Stripe Payments Demo](https://github.com/stripe/stripe-payments-demo), a sample e-commerce store that uses [Stripe Elements](https://stripe.com/docs/elements) and the [Sources API](https://stripe.com/docs/sources) to accept both card payments and additional payment methods on the web. Please refer to the main project to learn more and find backend code in more languages.
 
-StdLib allows anybody to quickly ship scalable and production-ready APIs. We’ve ported our payments demo from Express to a serverless-based approach on StdLib to serve API endpoints, the Stripe webhook integration, and the single-page app. You can [explore this repository on code.xyz](https://code.xyz?github=stripe/stripe-stdlib-demo). We hope you enjoy!
+StdLib allows anybody to quickly ship scalable and production-ready APIs. We’ve ported our payments demo from Express to a serverless-based approach on StdLib to serve API endpoints, the Stripe webhook integration, and the single-page app. You can [explore this repository on Code.xyz](https://code.xyz?github=stripe/stripe-stdlib-demo). We hope you enjoy!
 
 ## Overview
 
@@ -45,7 +47,7 @@ In your Stripe Dashboard, you can [enable the payment methods](https://dashboard
 
 ## Deploying to StdLib
 
-The simplest way to test and deploy this project is to use the [code.xyz](https://code.xyz/?github=stripe/stripe-stdlib-demo) development environment, but you can also clone this repository locally and use the StdLib command line tools.
+The simplest way to test and deploy this project is to use the [Code.xyz](https://code.xyz/?github=stripe/stripe-stdlib-demo) development environment, but you can also clone this repository locally and use the StdLib command line tools.
 
 In both cases, you’ll need to copy the file `env.example.json` to `env.json` and fill in your own [Stripe API keys](https://dashboard.stripe.com/account/apikeys) and any other configuration details.
 
