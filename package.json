@@ -1,0 +1,32 @@
+{
+  "name": "stripe-stdlib-demo",
+  "description":
+    "Sample store accepting universal payments built with Stripe and StdLib",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Romain Huet <romain@stripe.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stripe/stripe-stdlib-demo.git"
+  },
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "mime": "^1.3.6",
+    "stripe": "^4.18.0"
+  },
+  "stdlib": {
+    "build": "faaslang",
+    "name": "romainhuet/stripe-stdlib-demo",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
