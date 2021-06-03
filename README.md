@@ -1,3 +1,7 @@
+> <img src="https://stripe.dev/images/badges/archived.png" width="250">
+>
+> This project is deprecated and is no longer being actively maintained.
+
 # Stripe on StdLib Demo
 
 <a href="https://code.xyz/?github=stripe/stripe-stdlib-demo"><img src="https://code.xyz/button/?format=svg" alt="Open in Code.xyz" height="32"></a>
